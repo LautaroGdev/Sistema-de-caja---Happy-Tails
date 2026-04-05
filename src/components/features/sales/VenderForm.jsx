@@ -160,7 +160,7 @@ const VenderForm = ({ onRegistrarVenta, cierreRealizado, usuarioLogueado }) => {
               loading={loading}
               className="w-full py-4 text-xl"
             >
-              ✅ CONFIRMAR VENTA
+              CONFIRMAR VENTA
             </Button>
             
             <Button
