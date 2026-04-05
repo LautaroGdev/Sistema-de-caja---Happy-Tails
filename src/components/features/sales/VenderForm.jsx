@@ -152,7 +152,7 @@ const VenderForm = ({ onRegistrarVenta, cierreRealizado, usuarioLogueado }) => {
             )}
           </div>
           
-          <div className="grid grid-cols-2 gap-4">
+          <div className="flex flex-col sm:flex-row gap-3">
             <Button
               onClick={handleConfirmar}
               variant="success"
